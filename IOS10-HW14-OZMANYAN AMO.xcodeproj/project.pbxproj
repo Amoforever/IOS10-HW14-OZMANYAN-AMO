@@ -16,6 +16,7 @@
 		CE4CF5FE2A69D14B00A206BD /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF5FD2A69D14B00A206BD /* Header.swift */; };
 		CE4CF6012A69D16700A206BD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE4CF6002A69D16700A206BD /* SnapKit */; };
 		CE4CF6032A69D1CF00A206BD /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF6022A69D1CF00A206BD /* AlbumCell.swift */; };
+		CE4CF6052A69D27F00A206BD /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF6042A69D27F00A206BD /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CE4CF5FB2A69D0FC00A206BD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE4CF5FD2A69D14B00A206BD /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		CE4CF6022A69D1CF00A206BD /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		CE4CF6042A69D27F00A206BD /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4CF6022A69D1CF00A206BD /* AlbumCell.swift */,
+				CE4CF6042A69D27F00A206BD /* TableCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				CE4CF5FE2A69D14B00A206BD /* Header.swift in Sources */,
 				CE4CF5E52A69CE3F00A206BD /* ViewController.swift in Sources */,
 				CE4CF5E12A69CE3F00A206BD /* AppDelegate.swift in Sources */,
+				CE4CF6052A69D27F00A206BD /* TableCell.swift in Sources */,
 				CE4CF5E32A69CE3F00A206BD /* SceneDelegate.swift in Sources */,
 				CE4CF5FC2A69D0FC00A206BD /* Model.swift in Sources */,
 				CE4CF6032A69D1CF00A206BD /* AlbumCell.swift in Sources */,
