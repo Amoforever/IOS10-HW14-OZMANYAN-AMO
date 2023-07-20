@@ -17,6 +17,7 @@
 		CE4CF6012A69D16700A206BD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE4CF6002A69D16700A206BD /* SnapKit */; };
 		CE4CF6032A69D1CF00A206BD /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF6022A69D1CF00A206BD /* AlbumCell.swift */; };
 		CE4CF6052A69D27F00A206BD /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF6042A69D27F00A206BD /* TableCell.swift */; };
+		CE4CF6072A69D2E200A206BD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF6062A69D2E200A206BD /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CE4CF5FD2A69D14B00A206BD /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		CE4CF6022A69D1CF00A206BD /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 		CE4CF6042A69D27F00A206BD /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		CE4CF6062A69D2E200A206BD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		CE4CF5F62A69CFEF00A206BD /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				CE4CF6062A69D2E200A206BD /* UIViewController+Extension.swift */,
 				CE4CF5FA2A69D01D00A206BD /* Cell */,
 				CE4CF5F92A69D00D00A206BD /* Header */,
 				CE4CF5F82A69D00600A206BD /* Model */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4CF6072A69D2E200A206BD /* UIViewController+Extension.swift in Sources */,
 				CE4CF5FE2A69D14B00A206BD /* Header.swift in Sources */,
 				CE4CF5E52A69CE3F00A206BD /* ViewController.swift in Sources */,
 				CE4CF5E12A69CE3F00A206BD /* AppDelegate.swift in Sources */,
